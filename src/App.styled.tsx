@@ -4,7 +4,7 @@ const prefix = process.env.PUBLIC_URL
 
 export const App = styled.div`
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    50% -200px / 100% 100vh no-repeat url(${prefix + 'images/bg-image.jpg'});
+    50% -200px / 100% 100vh no-repeat url(${prefix + '/images/bg-image.jpg'});
 
   width: 100%;
   min-height: 100vh;
