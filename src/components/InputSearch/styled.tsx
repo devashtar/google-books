@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const br = '4px'
-const searchSVG = process.env.PUBLIC_URL + 'images/icons/search.svg'
+const searchSVG = process.env.PUBLIC_URL + '/images/icons/search.svg'
 
 export const Container = styled.form`
   position: relative;
