@@ -10,7 +10,7 @@ export const Header: React.FC<{}> = () => {
     <Styled.Header>
       <Container>
         <Title />
-        <Nav></Nav>
+        <Nav />
       </Container>
     </Styled.Header>
   )

@@ -6,8 +6,11 @@ module.exports = function override(config) {
     alias: {
       ...config.alias,
       '@types': resolve(__dirname, 'src/types'),
+      '@store': resolve(__dirname, 'src/store'),
       '@components': resolve(__dirname, 'src/components'),
-      '@containers': resolve(__dirname, 'src/containers')
+      '@containers': resolve(__dirname, 'src/containers'),
+      '@theme': resolve(__dirname, 'src/theme'),
+      '@types': resolve(__dirname, 'src/types')
     }
   }
 

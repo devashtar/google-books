@@ -3,10 +3,15 @@
         "baseUrl": "./src",
         "paths": {
             "@types/*": ["./types/*"],
+            "@types": ["./types"],
+            "@store/*": ["./store/*"],
+            "@store": ["./store"],
             "@components/*": ["./components/*"],
             "@components": ["./components"],
             "@containers/*": ["./containers/*"],
-            "@containers": ["./containers"]
+            "@containers": ["./containers"],
+            "@theme/*": ["./theme/*"],
+            "@theme": ["./theme"]
         }
     }
 }
